@@ -51,10 +51,9 @@
 void ledController(void){
 
     GPIO_toggle(Board_LED2);
-    Task_sleep(100); // delay function
+    Task_sleep(1000); // delay function
 
 }
-
 
 int main(void)
 {

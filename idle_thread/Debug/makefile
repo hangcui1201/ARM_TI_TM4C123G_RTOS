@@ -157,10 +157,10 @@ idle_thread.hex: $(EXE_OUTPUTS)
 
 # Other Targets
 clean:
-	-$(RM) $(GEN_CMDS__QUOTED)$(GEN_MISC_FILES__QUOTED)$(BIN_OUTPUTS__QUOTED)$(GEN_FILES__QUOTED)$(EXE_OUTPUTS__QUOTED)$(GEN_OPTS__QUOTED)
-	-$(RMDIR) $(GEN_MISC_DIRS__QUOTED)
+	-$(RM) $(BIN_OUTPUTS__QUOTED)$(GEN_FILES__QUOTED)$(EXE_OUTPUTS__QUOTED)
 	-$(RM) "EK_TM4C123GXL.obj" "idle_thread.obj" 
 	-$(RM) "EK_TM4C123GXL.d" "idle_thread.d" 
+	-$(RMDIR) $(GEN_MISC_DIRS__QUOTED)
 	-@echo 'Finished clean'
 	-@echo ' '
 

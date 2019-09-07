@@ -1,7 +1,7 @@
 ******************************************************************************
                   TI ARM Linker PC v18.1.4                     
 ******************************************************************************
->> Linked Tue Feb 12 22:52:39 2019
+>> Linked Fri Sep  6 21:51:38 2019
 
 OUTPUT FILE NAME:   <idle_thread.out>
 ENTRY POINT SYMBOL: "_c_int00"  address: 00003789
@@ -260,10 +260,9 @@ section   page    origin      length       input sections
                   00004c4c    00000014     idle_thread_pem4f.oem4f (.text:ti_sysbios_heaps_HeapMem_Object__get__S)
                   00004c60    00000014     idle_thread_pem4f.oem4f (.text:ti_sysbios_knl_Swi_Object__get__S)
                   00004c74    00000012     driverlib.lib : gpio.obj (.text:GPIOPinTypeGPIOInput)
-                  00004c86    00000002     --HOLE-- [fill = 0]
-                  00004c88    00000012     sysbios.aem4f : BIOS.obj (.text:ti_sysbios_hal_Hwi_Module_startup__E)
-                  00004c9a    00000012     idle_thread_pem4f.oem4f (.text:xdc_runtime_Startup_exec__I)
-                  00004cac    00000010     idle_thread.obj (.text:ledController)
+                  00004c86    00000012     idle_thread.obj (.text:ledController)
+                  00004c98    00000012     sysbios.aem4f : BIOS.obj (.text:ti_sysbios_hal_Hwi_Module_startup__E)
+                  00004caa    00000012     idle_thread_pem4f.oem4f (.text:xdc_runtime_Startup_exec__I)
                   00004cbc    00000004     --HOLE-- [fill = 0]
                   00004cc0    00000010     sysbios.aem4f : BIOS.obj (.text:ti_sysbios_BIOS_setThreadType__E)
                   00004cd0    00000010                   : BIOS.obj (.text:ti_sysbios_BIOS_start__E)
@@ -555,8 +554,8 @@ section   page    origin      length       input sections
 .vecs      0    20000000    00000360     UNINITIALIZED
                   20000000    00000360     idle_thread_pem4f.oem4f (.vecs)
 
-xdc.meta   0    00000000    000000ea     COPY SECTION
-                  00000000    000000ea     idle_thread_pem4f.oem4f (xdc.meta)
+xdc.meta   0    00000000    000000ee     COPY SECTION
+                  00000000    000000ee     idle_thread_pem4f.oem4f (xdc.meta)
 
 MODULE SUMMARY
 
@@ -564,11 +563,11 @@ MODULE SUMMARY
        ------                       ----    -------   -------
     .\
        EK_TM4C123GXL.obj            112     20        28     
-       idle_thread.obj              38      0         0      
+       idle_thread.obj              40      0         0      
     +--+----------------------------+-------+---------+---------+
-       Total:                       150     20        28     
+       Total:                       152     20        28     
                                                              
-    C:\Github_Sync\ARM_TI_RTOS_TIVA\idle_thread\Debug\configPkg\package\cfg\
+    C:\Github_Sync\ARM_TI_TM4C123G_RTOS\idle_thread\Debug\configPkg\package\cfg\
        idle_thread_pem4f.oem4f      1558    7586      4368   
     +--+----------------------------+-------+---------+---------+
        Total:                       1558    7586      4368   
@@ -584,7 +583,7 @@ MODULE SUMMARY
     +--+----------------------------+-------+---------+---------+
        Total:                       764     156       153    
                                                              
-    C:\Github_Sync\ARM_TI_RTOS_TIVA\idle_thread\src\sysbios\sysbios.aem4f
+    C:\Github_Sync\ARM_TI_TM4C123G_RTOS\idle_thread\src\sysbios\sysbios.aem4f
        BIOS.obj                     10906   0         0      
        m3_Hwi_asm.obj               314     0         0      
        m3_TaskSupport_asm.obj       180     0         0      
@@ -648,7 +647,7 @@ MODULE SUMMARY
        Stack:                       0       0         768    
        Linker Generated:            0       511       0      
     +--+----------------------------+-------+---------+---------+
-       Grand Total:                 20037   8273      5625   
+       Grand Total:                 20039   8273      5625   
 
 
 LINKER GENERATED COPY TABLES
@@ -695,11 +694,11 @@ UNDEFED   SHT$$INIT_ARRAY$$Limit
 00004121  SysCtlPeripheralEnable                                            
 00000000  __ASM__                                                           
 20000cc0  __CIOBUF_                                                         
-00000068  __ISA__                                                           
-0000007b  __PLAT__                                                          
+0000006c  __ISA__                                                           
+0000007f  __PLAT__                                                          
 20001600  __STACK_END                                                       
 00000300  __STACK_SIZE                                                      
-0000009c  __TARG__                                                          
+000000a0  __TARG__                                                          
 00006f20  __TI_CINIT_Base                                                   
 00006f38  __TI_CINIT_Limit                                                  
 00006f04  __TI_Handler_Table_Base                                           
@@ -714,7 +713,7 @@ ffffffff  __TI_prof_data_start
 00006d38  __TI_static_base__                                                
 00004005  __TI_writemsg                                                     
 00004df5  __TI_zero_init                                                    
-000000c2  __TRDR__                                                          
+000000c6  __TRDR__                                                          
 00002ff7  __aeabi_idiv0                                                     
 00002ff7  __aeabi_ldiv0                                                     
 00002f7d  __aeabi_memclr                                                    
@@ -743,7 +742,7 @@ ffffffff  binit
 00003ad1  copy_in                                                           
 20001280  gpioCallbackFunctions                                             
 2000124c  gpioPinConfigs                                                    
-00004cad  ledController                                                     
+00004c87  ledController                                                     
 00004be1  main                                                              
 200012e0  main_func_sp                                                      
 00002a41  memcpy                                                            
@@ -917,7 +916,7 @@ e000e000  ti_sysbios_family_arm_m3_Hwi_nvic
 00004ea9  ti_sysbios_hal_Hwi_HwiProxy_startup__E                            
 00004c39  ti_sysbios_hal_Hwi_HwiProxy_switchFromBootStack__E                
 00006d18  ti_sysbios_hal_Hwi_Module__id__C                                  
-00004c89  ti_sysbios_hal_Hwi_Module_startup__E                              
+00004c99  ti_sysbios_hal_Hwi_Module_startup__E                              
 000041f9  ti_sysbios_hal_Hwi_checkStack                                     
 00003c11  ti_sysbios_hal_Hwi_disableInterrupt__E                            
 00003c59  ti_sysbios_hal_Hwi_enableInterrupt__E                             
@@ -1114,7 +1113,7 @@ e000e000  ti_sysbios_family_arm_m3_Hwi_nvic
 00000001  xdc_runtime_Startup__RESETFXN__C                                  
 00006cd0  xdc_runtime_Startup_execImpl__C                                   
 00003a31  xdc_runtime_Startup_exec__E                                       
-00004c9b  xdc_runtime_Startup_exec__I                                       
+00004cab  xdc_runtime_Startup_exec__I                                       
 00006b44  xdc_runtime_Startup_firstFxns__A                                  
 00006b80  xdc_runtime_Startup_firstFxns__C                                  
 00006b88  xdc_runtime_Startup_lastFxns__C                                   
@@ -1205,10 +1204,10 @@ address   name
 00000001  xdc_runtime_Startup__EXECFXN__C                                   
 00000001  xdc_runtime_Startup__RESETFXN__C                                  
 00000041  ti_sysbios_family_arm_m3_Hwi_excDumpRegs__I                       
-00000068  __ISA__                                                           
-0000007b  __PLAT__                                                          
-0000009c  __TARG__                                                          
-000000c2  __TRDR__                                                          
+0000006c  __ISA__                                                           
+0000007f  __PLAT__                                                          
+000000a0  __TARG__                                                          
+000000c6  __TRDR__                                                          
 00000300  __STACK_SIZE                                                      
 00000471  xdc_runtime_System_doPrint__I                                     
 000007bd  C$$EXIT                                                           
@@ -1454,9 +1453,9 @@ address   name
 00004c4d  ti_sysbios_heaps_HeapMem_Object__get__S                           
 00004c61  ti_sysbios_knl_Swi_Object__get__S                                 
 00004c75  GPIOPinTypeGPIOInput                                              
-00004c89  ti_sysbios_hal_Hwi_Module_startup__E                              
-00004c9b  xdc_runtime_Startup_exec__I                                       
-00004cad  ledController                                                     
+00004c87  ledController                                                     
+00004c99  ti_sysbios_hal_Hwi_Module_startup__E                              
+00004cab  xdc_runtime_Startup_exec__I                                       
 00004cc1  ti_sysbios_BIOS_setThreadType__E                                  
 00004cd1  osi_start                                                         
 00004cd1  ti_sysbios_BIOS_start__E                                          
