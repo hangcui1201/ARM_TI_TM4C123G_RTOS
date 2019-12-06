@@ -6,5 +6,5 @@ tm4c123 -> TI-RTOS -> Development Tools -> EK-TM4C123GXL -> Driver Examples -> E
 
 (2) all the other files -> rename
 
-
+idle_thread.cfg -> Idle -> User idle function 0: ledController
 

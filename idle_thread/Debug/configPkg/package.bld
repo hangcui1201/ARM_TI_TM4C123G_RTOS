@@ -11,7 +11,7 @@ var makeAssembly = false;
 var Executable = xdc.module('xdc.bld.Executable');
 
 var exeOpts = new Executable.Attrs({
-        cfgScript: 'C:/Github_Sync/ARM_TI_TM4C123G_RTOS/idle_thread/idle_thread.cfg',
+        cfgScript: 'C:/Github_Repo/ARM_TI_TM4C123G_RTOS/workspace/idle_thread/idle_thread.cfg',
         profile: 'release',
         cfgHome: 'configPkg',
 });
@@ -41,7 +41,7 @@ else {
 
 var thisObj = {
     cfg:        '../idle_thread.cfg',
-    outputPath: 'C:/Github_Sync/ARM_TI_TM4C123G_RTOS/idle_thread/Debug/configPkg',
+    outputPath: 'C:/Github_Repo/ARM_TI_TM4C123G_RTOS/workspace/idle_thread/Debug/configPkg',
     exeName:    'idle_thread' + suffix,
     exeIntName: 'idle_thread' + suffix.replace('.', '_'),
     targ:       targ,

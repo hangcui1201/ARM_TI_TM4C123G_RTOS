@@ -1,17 +1,20 @@
 # FIXED
 
 EK_TM4C123GXL.obj: ../EK_TM4C123GXL.c
-EK_TM4C123GXL.obj: C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.4.LTS/include/stdint.h
-EK_TM4C123GXL.obj: C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.4.LTS/include/sys/stdint.h
-EK_TM4C123GXL.obj: C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.4.LTS/include/sys/cdefs.h
-EK_TM4C123GXL.obj: C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.4.LTS/include/sys/_types.h
-EK_TM4C123GXL.obj: C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.4.LTS/include/machine/_types.h
-EK_TM4C123GXL.obj: C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.4.LTS/include/machine/_stdint.h
-EK_TM4C123GXL.obj: C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.4.LTS/include/sys/_stdint.h
-EK_TM4C123GXL.obj: C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.4.LTS/include/stdbool.h
+EK_TM4C123GXL.obj: C:/ti/ccs920/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include/stdint.h
+EK_TM4C123GXL.obj: C:/ti/ccs920/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include/_stdint40.h
+EK_TM4C123GXL.obj: C:/ti/ccs920/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include/sys/stdint.h
+EK_TM4C123GXL.obj: C:/ti/ccs920/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include/sys/cdefs.h
+EK_TM4C123GXL.obj: C:/ti/ccs920/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include/sys/_types.h
+EK_TM4C123GXL.obj: C:/ti/ccs920/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include/machine/_types.h
+EK_TM4C123GXL.obj: C:/ti/ccs920/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include/machine/_stdint.h
+EK_TM4C123GXL.obj: C:/ti/ccs920/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include/sys/_stdint.h
+EK_TM4C123GXL.obj: C:/ti/ccs920/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include/stdbool.h
 EK_TM4C123GXL.obj: C:/ti/xdctools_3_32_00_06_core/packages/xdc/std.h
-EK_TM4C123GXL.obj: C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.4.LTS/include/stdarg.h
-EK_TM4C123GXL.obj: C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.4.LTS/include/stddef.h
+EK_TM4C123GXL.obj: C:/ti/ccs920/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include/stdarg.h
+EK_TM4C123GXL.obj: C:/ti/ccs920/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include/stddef.h
+EK_TM4C123GXL.obj: C:/ti/ccs920/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include/_ti_config.h
+EK_TM4C123GXL.obj: C:/ti/ccs920/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include/linkage.h
 EK_TM4C123GXL.obj: C:/ti/tirtos_tivac_2_16_00_08/products/bios_6_45_01_29/packages/ti/targets/arm/elf/std.h
 EK_TM4C123GXL.obj: C:/ti/tirtos_tivac_2_16_00_08/products/bios_6_45_01_29/packages/ti/targets/arm/elf/M4F.h
 EK_TM4C123GXL.obj: C:/ti/tirtos_tivac_2_16_00_08/products/bios_6_45_01_29/packages/ti/targets/std.h
@@ -243,17 +246,20 @@ EK_TM4C123GXL.obj: C:/ti/tirtos_tivac_2_16_00_08/products/tidrivers_tivac_2_16_0
 EK_TM4C123GXL.obj: C:/ti/tirtos_tivac_2_16_00_08/products/bios_6_45_01_29/packages/ti/sysbios/family/arm/m3/Hwi.h
 
 ../EK_TM4C123GXL.c: 
-C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.4.LTS/include/stdint.h: 
-C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.4.LTS/include/sys/stdint.h: 
-C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.4.LTS/include/sys/cdefs.h: 
-C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.4.LTS/include/sys/_types.h: 
-C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.4.LTS/include/machine/_types.h: 
-C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.4.LTS/include/machine/_stdint.h: 
-C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.4.LTS/include/sys/_stdint.h: 
-C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.4.LTS/include/stdbool.h: 
+C:/ti/ccs920/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include/stdint.h: 
+C:/ti/ccs920/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include/_stdint40.h: 
+C:/ti/ccs920/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include/sys/stdint.h: 
+C:/ti/ccs920/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include/sys/cdefs.h: 
+C:/ti/ccs920/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include/sys/_types.h: 
+C:/ti/ccs920/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include/machine/_types.h: 
+C:/ti/ccs920/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include/machine/_stdint.h: 
+C:/ti/ccs920/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include/sys/_stdint.h: 
+C:/ti/ccs920/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include/stdbool.h: 
 C:/ti/xdctools_3_32_00_06_core/packages/xdc/std.h: 
-C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.4.LTS/include/stdarg.h: 
-C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.4.LTS/include/stddef.h: 
+C:/ti/ccs920/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include/stdarg.h: 
+C:/ti/ccs920/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include/stddef.h: 
+C:/ti/ccs920/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include/_ti_config.h: 
+C:/ti/ccs920/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include/linkage.h: 
 C:/ti/tirtos_tivac_2_16_00_08/products/bios_6_45_01_29/packages/ti/targets/arm/elf/std.h: 
 C:/ti/tirtos_tivac_2_16_00_08/products/bios_6_45_01_29/packages/ti/targets/arm/elf/M4F.h: 
 C:/ti/tirtos_tivac_2_16_00_08/products/bios_6_45_01_29/packages/ti/targets/std.h: 

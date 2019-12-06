@@ -7,5 +7,5 @@
 #       or equal to the generated config header
 #
 linker.cmd: package/cfg/idle_thread_pem4f.xdl
-	$(SED) 's"^\"\(package/cfg/idle_thread_pem4fcfg.cmd\)\"$""\"C:/Github_Sync/ARM_TI_TM4C123G_RTOS/idle_thread/Debug/configPkg/\1\""' package/cfg/idle_thread_pem4f.xdl > $@
+	$(SED) 's"^\"\(package/cfg/idle_thread_pem4fcfg.cmd\)\"$""\"C:/Github_Repo/ARM_TI_TM4C123G_RTOS/workspace/idle_thread/Debug/configPkg/\1\""' package/cfg/idle_thread_pem4f.xdl > $@
 	-$(SETDATE) -r:max package/cfg/idle_thread_pem4f.h compiler.opt compiler.opt.defs

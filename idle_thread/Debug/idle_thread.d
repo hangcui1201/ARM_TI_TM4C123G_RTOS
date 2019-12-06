@@ -2,18 +2,21 @@
 
 idle_thread.obj: ../idle_thread.c
 idle_thread.obj: C:/ti/xdctools_3_32_00_06_core/packages/xdc/std.h
-idle_thread.obj: C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.4.LTS/include/stdarg.h
-idle_thread.obj: C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.4.LTS/include/sys/_types.h
-idle_thread.obj: C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.4.LTS/include/sys/cdefs.h
-idle_thread.obj: C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.4.LTS/include/machine/_types.h
-idle_thread.obj: C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.4.LTS/include/stddef.h
+idle_thread.obj: C:/ti/ccs920/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include/stdarg.h
+idle_thread.obj: C:/ti/ccs920/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include/sys/_types.h
+idle_thread.obj: C:/ti/ccs920/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include/sys/cdefs.h
+idle_thread.obj: C:/ti/ccs920/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include/machine/_types.h
+idle_thread.obj: C:/ti/ccs920/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include/stddef.h
+idle_thread.obj: C:/ti/ccs920/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include/_ti_config.h
+idle_thread.obj: C:/ti/ccs920/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include/linkage.h
 idle_thread.obj: C:/ti/tirtos_tivac_2_16_00_08/products/bios_6_45_01_29/packages/ti/targets/arm/elf/std.h
 idle_thread.obj: C:/ti/tirtos_tivac_2_16_00_08/products/bios_6_45_01_29/packages/ti/targets/arm/elf/M4F.h
 idle_thread.obj: C:/ti/tirtos_tivac_2_16_00_08/products/bios_6_45_01_29/packages/ti/targets/std.h
-idle_thread.obj: C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.4.LTS/include/stdint.h
-idle_thread.obj: C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.4.LTS/include/sys/stdint.h
-idle_thread.obj: C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.4.LTS/include/machine/_stdint.h
-idle_thread.obj: C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.4.LTS/include/sys/_stdint.h
+idle_thread.obj: C:/ti/ccs920/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include/stdint.h
+idle_thread.obj: C:/ti/ccs920/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include/_stdint40.h
+idle_thread.obj: C:/ti/ccs920/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include/sys/stdint.h
+idle_thread.obj: C:/ti/ccs920/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include/machine/_stdint.h
+idle_thread.obj: C:/ti/ccs920/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include/sys/_stdint.h
 idle_thread.obj: C:/ti/xdctools_3_32_00_06_core/packages/xdc/runtime/System.h
 idle_thread.obj: C:/ti/xdctools_3_32_00_06_core/packages/xdc/runtime/xdc.h
 idle_thread.obj: C:/ti/xdctools_3_32_00_06_core/packages/xdc/runtime/Types.h
@@ -168,18 +171,21 @@ idle_thread.obj: ../EK_TM4C123GXL.h
 
 ../idle_thread.c: 
 C:/ti/xdctools_3_32_00_06_core/packages/xdc/std.h: 
-C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.4.LTS/include/stdarg.h: 
-C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.4.LTS/include/sys/_types.h: 
-C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.4.LTS/include/sys/cdefs.h: 
-C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.4.LTS/include/machine/_types.h: 
-C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.4.LTS/include/stddef.h: 
+C:/ti/ccs920/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include/stdarg.h: 
+C:/ti/ccs920/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include/sys/_types.h: 
+C:/ti/ccs920/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include/sys/cdefs.h: 
+C:/ti/ccs920/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include/machine/_types.h: 
+C:/ti/ccs920/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include/stddef.h: 
+C:/ti/ccs920/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include/_ti_config.h: 
+C:/ti/ccs920/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include/linkage.h: 
 C:/ti/tirtos_tivac_2_16_00_08/products/bios_6_45_01_29/packages/ti/targets/arm/elf/std.h: 
 C:/ti/tirtos_tivac_2_16_00_08/products/bios_6_45_01_29/packages/ti/targets/arm/elf/M4F.h: 
 C:/ti/tirtos_tivac_2_16_00_08/products/bios_6_45_01_29/packages/ti/targets/std.h: 
-C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.4.LTS/include/stdint.h: 
-C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.4.LTS/include/sys/stdint.h: 
-C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.4.LTS/include/machine/_stdint.h: 
-C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.4.LTS/include/sys/_stdint.h: 
+C:/ti/ccs920/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include/stdint.h: 
+C:/ti/ccs920/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include/_stdint40.h: 
+C:/ti/ccs920/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include/sys/stdint.h: 
+C:/ti/ccs920/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include/machine/_stdint.h: 
+C:/ti/ccs920/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include/sys/_stdint.h: 
 C:/ti/xdctools_3_32_00_06_core/packages/xdc/runtime/System.h: 
 C:/ti/xdctools_3_32_00_06_core/packages/xdc/runtime/xdc.h: 
 C:/ti/xdctools_3_32_00_06_core/packages/xdc/runtime/Types.h: 
