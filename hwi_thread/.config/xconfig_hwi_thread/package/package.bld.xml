@@ -7,7 +7,7 @@
         <srcFile name="package/cfg/hwi_thread_pem4f.c"/>
     </sources>
     <configscripts>
-        <srcFile name="C:/Github_Repo/ARM_TI_TM4C123G_RTOS/workspace/hwi_thread/hwi_thread.cfg"/>
+        <srcFile name="C:/Github_Repo/ARM_TI_TM4C123G_RTOS/hwi_thread/hwi_thread.cfg"/>
     </configscripts>
     <makefiles>
         <srcFile name="package.mak" src="package.bld"/>
@@ -44,7 +44,7 @@
         isPartial="false"
         xCfgScript="package/cfg/hwi_thread_pem4f.cfg"
         xCfgPrefix="package/cfg/hwi_thread_pem4f"
-        cfgScript="C:/Github_Repo/ARM_TI_TM4C123G_RTOS/workspace/hwi_thread/hwi_thread.cfg"
+        cfgScript="C:/Github_Repo/ARM_TI_TM4C123G_RTOS/hwi_thread/hwi_thread.cfg"
         cfgArgs="null"
         />
     </configurations>
@@ -56,7 +56,7 @@
         profile="release"
         xCfgScript="package/cfg/hwi_thread_pem4f.cfg"
         xCfgPrefix="package/cfg/hwi_thread_pem4f"
-        cfgScript="C:/Github_Repo/ARM_TI_TM4C123G_RTOS/workspace/hwi_thread/hwi_thread.cfg"
+        cfgScript="C:/Github_Repo/ARM_TI_TM4C123G_RTOS/hwi_thread/hwi_thread.cfg"
         cfgArgs="null"
         />
     </executables>

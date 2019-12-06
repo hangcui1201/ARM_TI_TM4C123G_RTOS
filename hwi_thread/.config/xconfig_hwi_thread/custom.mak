@@ -7,5 +7,5 @@
 #       or equal to the generated config header
 #
 linker.cmd: package/cfg/hwi_thread_pem4f.xdl
-	$(SED) 's"^\"\(package/cfg/hwi_thread_pem4fcfg.cmd\)\"$""\"C:/Github_Repo/ARM_TI_TM4C123G_RTOS/workspace/hwi_thread/.config/xconfig_hwi_thread/\1\""' package/cfg/hwi_thread_pem4f.xdl > $@
+	$(SED) 's"^\"\(package/cfg/hwi_thread_pem4fcfg.cmd\)\"$""\"C:/Github_Repo/ARM_TI_TM4C123G_RTOS/hwi_thread/.config/xconfig_hwi_thread/\1\""' package/cfg/hwi_thread_pem4f.xdl > $@
 	-$(SETDATE) -r:max package/cfg/hwi_thread_pem4f.h compiler.opt compiler.opt.defs

@@ -1,0 +1,12 @@
+package.xdc
+package.xs
+package/xconfig_swi_thread_dynamic.sch
+package/.vers_g180
+package/.vers_r170
+package/.vers_b160
+package/.xdc-B06
+package/xconfig_swi_thread_dynamic.java
+package/xconfig_swi_thread_dynamic.class
+package/package_xconfig_swi_thread_dynamic.c
+package/package.defs.h
+package/xconfig_swi_thread_dynamic.ccs

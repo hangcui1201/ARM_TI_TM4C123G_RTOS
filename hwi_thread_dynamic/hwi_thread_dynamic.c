@@ -86,7 +86,6 @@ void Timer2A_Interrupt_Init(void)
 
     // Enable Timer 2
     TimerEnable(TIMER2_BASE, TIMER_A);
-
 }
 
 

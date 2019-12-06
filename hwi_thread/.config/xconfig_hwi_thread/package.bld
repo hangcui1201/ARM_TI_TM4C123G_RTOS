@@ -11,7 +11,7 @@ var makeAssembly = false;
 var Executable = xdc.module('xdc.bld.Executable');
 
 var exeOpts = new Executable.Attrs({
-        cfgScript: 'C:/Github_Repo/ARM_TI_TM4C123G_RTOS/workspace/hwi_thread/hwi_thread.cfg',
+        cfgScript: 'C:/Github_Repo/ARM_TI_TM4C123G_RTOS/hwi_thread/hwi_thread.cfg',
         profile: 'release',
         cfgHome: 'xconfig_hwi_thread',
 });
@@ -40,8 +40,8 @@ else {
 }
 
 var thisObj = {
-    cfg:        'C:/Github_Repo/ARM_TI_TM4C123G_RTOS/workspace/hwi_thread/hwi_thread.cfg',
-    outputPath: 'C:/Github_Repo/ARM_TI_TM4C123G_RTOS/workspace/hwi_thread/.config/xconfig_hwi_thread',
+    cfg:        'C:/Github_Repo/ARM_TI_TM4C123G_RTOS/hwi_thread/hwi_thread.cfg',
+    outputPath: 'C:/Github_Repo/ARM_TI_TM4C123G_RTOS/hwi_thread/.config/xconfig_hwi_thread',
     exeName:    'hwi_thread' + suffix,
     exeIntName: 'hwi_thread' + suffix.replace('.', '_'),
     targ:       targ,
